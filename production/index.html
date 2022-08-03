@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/logo.jpg" type="image/ico" />
+    <title>SHINE STUDIO</title>
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- bootstrap-progressbar -->
+    <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="../vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet" />
+    <!-- bootstrap-daterangepicker -->
+    <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+    <link href="../production/css/style.css" rel="stylesheet">
+  </head>
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title text-center" style="border: 0;">
+              <a href="index.html" class="site_title">
+                <span>SHINE STUDIO</span>
+              </a>
+            </div>
+            <div class="clearfix"></div>
+            <!-- menu profile quick info -->
+            <div class="profile clearfix">
+              <div class="profile_pic">
+                <img src="images/avatar.png" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Xin chào,</span>
+                <h2>Thu Ngân</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+            <br />
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <ul class="nav side-menu">
+                  <li>
+                    <a>
+                      <i class="fa fa-home"></i> Trang chủ <span class="fa fa-chevron-down"></span>
+                    </a>
+                    <ul class="nav child_menu">
+                      <li>
+                        <a href="index.html">Tổng quan</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a>
+                      <i class="fa fa-edit"></i> Quản lý thanh toán <span class="fa fa-chevron-down"></span>
+                    </a>
+                    <ul class="nav child_menu">
+                      <li>
+                        <a href="form.html">Lập hóa đơn</a>
+                      </li>
+                      <li>
+                        <a href="form_advanced.html">Danh sách hóa đơn</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- /sidebar menu -->
+          </div>
+        </div>
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <div class="nav toggle">
+              <a id="menu_toggle">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            <nav class="nav navbar-nav">
+              <ul class=" navbar-right">
+                <li class="nav-item dropdown open" style="padding-left: 15px;">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/avatar.png" alt="">Thu Ngân </a>
+                  <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="javascript:;"> Thông tin tài khoản</a>
+                    <a class="dropdown-item" href="javascript:;"> Đổi mật khẩu</a>
+                    <a class="dropdown-item" href="login.html">
+                      <i class="fa fa-sign-out pull-right"></i> Đăng xuất </a>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <!-- top tiles -->
+          <div class="row">
+            <div class="animated flipInY col-lg-3 col-md-3 col-sm-6  ">
+              <div class="tile-stats">
+                <h3>Số lượng hóa đơn</h3>
+                <div class="count">37</div>
+              </div>
+            </div>
+            <div class="animated flipInY col-lg-3 col-md-3 col-sm-6  ">
+              <div class="tile-stats">
+                <h3>Tổng tiền hóa đơn</h3>
+                <div class="count">16.000.000</div>
+              </div>
+            </div>
+            <div class="animated flipInY col-lg-3 col-md-3 col-sm-6  "></div>
+            <div class="animated flipInY col-lg-3 col-md-3 col-sm-6  "></div>
+          </div>
+          <!-- /top tiles -->
+          <br />
+          <div class="row">
+            <div class="col-md-6 col-sm-6 ">
+              <div class="x_panel tile overflow_hidden">
+                <div class="x_title">
+                  <h2>Loại hình thanh toán trong ngày</h2>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <table class="" style="width:100%">
+                    <tr>
+                      <td>
+                        <table class="tile_info">
+                          <tr>
+                            <td>
+                              <p>
+                                <i class="fa fa-square blue"></i>Tiền mặt
+                              </p>
+                            </td>
+                            <td>
+                              <p> 10.000.000 VNĐ </p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>
+                                <i class="fa fa-square green"></i>Chuyển khoản
+                              </p>
+                            </td>
+                            <td>
+                              <p> 3.000.000 VNĐ </p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p>
+                                <i class="fa fa-square purple"></i>Thanh toán thẻ
+                              </p>
+                            </td>
+                            <td>
+                              <p> 3.000.000 VNĐ </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 "></div>
+          </div>
+          <div class="row">
+            <div class="x_panel tile overflow_hidden">
+              <div class="x_title">
+                <h2>Hiện trạng các bàn trong cửa hàng</h2>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+                <div class="row">
+                  <div class="col-md-3">
+                    <button type="button" class="btn btn-success btn-lg width100" data-toggle="modal" data-target="#chitiethoadon">HĐ - Chị Linh</button>
+                  </div>
+                  <div class="col-md-3">
+                    <button type="button" class="btn btn-success btn-lg width100" data-toggle="modal" data-target="#chitiethoadon">HĐ - Chị Ngọc</button>
+                  </div>
+                  <div class="col-md-3">
+                    <button type="button" class="btn btn-success btn-lg width100" data-toggle="modal" data-target="#chitiethoadon">HĐ - Chị Hà</button>
+                  </div>
+                  <div class="col-md-3">
+                    <button type="button" class="btn btn-success btn-lg width100" data-toggle="modal" data-target="#chitiethoadon">HĐ - Chị Hân</button>
+                  </div>
+                  <div class="col-md-3">
+                    <button type="button" class="btn btn-success btn-lg width100" data-toggle="modal" data-target="#chitiethoadon">HĐ - Chị Hằng</button>
+                  </div>
+                  <div class="col-md-3">
+                    <button type="button" class="btn btn-success btn-lg width100" data-toggle="modal" data-target="#chitiethoadon">HĐ - Chị Phương</button>
+                  </div>
+                  <div class="col-md-3">
+                    <button type="button" class="btn btn-success btn-lg width100" data-toggle="modal" data-target="#chitiethoadon">HĐ - Chị Thắm</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /page content -->
+      <!-- footer content -->
+      <footer>
+        <div class="pull-right"> Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+        </div>
+        <div class="clearfix"></div>
+      </footer>
+      <!-- /footer content -->
+              <!-- Modal Chi tiết hóa đơn -->
+        <div class="modal fade" id="chitiethoadon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content  ">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Chi tiết hóa đơn</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Tên khách hàng: <b>Trần Mạnh Hùng</b></p>
+                <p>Tên nhân viên lập hóa đơn: <b>Hương</b></p>
+                <p>Nhân viên hỗ trợ làm Nail: <b>Tùng, Thành, Lâm</b></p>
+                <p>Nhân viên hỗ trợ làm Tóc: <b>Ngân, Hà</b></p>
+                <p>Nhân viên hỗ trợ làm Spa: <b>Lan, Linh</b></p>
+                <p>Thời gian lập hóa đơn: <b>11:41:22 03/08/2022</b></p>
+                <p>Tổng tiền hiện tại: <b>838.300</b></p>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">STT</th>
+                      <th scope="col">Tên dịch vụ</th>
+                      <th scope="col">Số lượng</th>
+                      <th scope="col">Đơn giá</th>
+                      <th scope="col">Thành tiền</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Cắt tóc</td>
+                      <td>1</td>
+                      <td>250.000</td>
+                      <td>250.000</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Làm móng</td>
+                      <td>2</td>
+                      <td>290.000</td>
+                      <td>580.000</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="text-right">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">+</button>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                <button type="button" class="btn btn-info" data-dismiss="modal">Lưu tạm</button>
+                <a href="thanhtoan.html" class="btn btn-primary">Tiến hành Thanh toán</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Modal -->
+    </div>
+    </div>
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- gauge.js -->
+    <script src="../vendors/gauge.js/dist/gauge.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="../vendors/iCheck/icheck.min.js"></script>
+    <!-- Skycons -->
+    <script src="../vendors/skycons/skycons.js"></script>
+    <!-- Flot -->
+    <script src="../vendors/Flot/jquery.flot.js"></script>
+    <script src="../vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="../vendors/Flot/jquery.flot.time.js"></script>
+    <script src="../vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="../vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="../vendors/DateJS/build/date.js"></script>
+    <!-- JQVMap -->
+    <script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
+    <script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="../vendors/moment/min/moment.min.js"></script>
+    <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+  </body>
+</html>
