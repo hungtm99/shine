@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/logo.jpg" type="image/ico" />
-    <title>SHINE STUDIO</title>
+    <title>CUCHOANG SALON</title>
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -33,7 +33,7 @@
           <div class="left_col scroll-view">
             <div class="navbar nav_title text-center" style="border: 0;">
               <a href="index.html" class="site_title">
-                <span>SHINE STUDIO</span>
+                <span>CUCHOANG SALON</span>
               </a>
             </div>
             <div class="clearfix"></div>
@@ -76,6 +76,71 @@
                       </li>
                     </ul>
                   </li>
+                  <li>
+                    <a>
+                      <i class="fa fa-edit"></i> Quản lý khách hàng <span class="fa fa-chevron-down"></span>
+                    </a>
+                    <ul class="nav child_menu">
+                      <li>
+                        <a href="form.html">Thêm mới khách hàng</a>
+                      </li>
+                      <li>
+                        <a href="form_advanced.html">Danh sách khách hàng</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a>
+                      <i class="fa fa-edit"></i> Quản lý thẻ <span class="fa fa-chevron-down"></span>
+                    </a>
+                    <ul class="nav child_menu">
+                      <li>
+                        <a href="form.html">Tạo mới thẻ</a>
+                      </li>
+                      <li>
+                        <a href="form_advanced.html">Danh sách thẻ</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a>
+                      <i class="fa fa-edit"></i> Quản lý dịch vụ <span class="fa fa-chevron-down"></span>
+                    </a>
+                    <ul class="nav child_menu">
+                        <li>
+                        <a href="form.html">Thêm mới nhóm</a>
+                      </li>
+                      <li>
+                        <a href="form.html">Thêm mới dịch vụ</a>
+                      </li>
+                      <li>
+                        <a href="form.html">Danh sách dịch vụ</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a>
+                      <i class="fa fa-edit"></i> Quản lý nhân viên <span class="fa fa-chevron-down"></span>
+                    </a>
+                    <ul class="nav child_menu">
+                      <li>
+                        <a href="form.html">Thêm nhân viên</a>
+                      </li>
+                      <li>
+                        <a href="form_advanced.html">Danh sách nhân viên</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a>
+                      <i class="fa fa-edit"></i> Báo cáo thống kê <span class="fa fa-chevron-down"></span>
+                    </a>
+                    <ul class="nav child_menu">
+                      <li>
+                        <a href="form.html">Lập báo cáo</a>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -110,7 +175,8 @@
         <!-- page content -->
         <div class="right_col" role="main">
           <!-- top tiles -->
-          <div class="row">
+            <h3>Tổng quan trong ngày</h3> <br>
+            <div class="row">
             <div class="animated flipInY col-lg-3 col-md-3 col-sm-6  ">
               <div class="tile-stats">
                 <h3>Số lượng hóa đơn</h3>
@@ -178,6 +244,12 @@
               </div>
             </div>
             <div class="col-md-6 col-sm-6 "></div>
+          </div>
+
+          <div class="row">
+              <div class="offset-md-2">
+                  <a href="inhoadon.html" class="btn btn-primary" target="_blank">In tổng kết ngày</a> 
+              </div>
           </div>
           <div class="row">
             <div class="x_panel tile overflow_hidden">
@@ -248,6 +320,7 @@
                       <th scope="col">Số lượng</th>
                       <th scope="col">Đơn giá</th>
                       <th scope="col">Thành tiền</th>
+                      <th scope="col">#</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -257,6 +330,7 @@
                       <td>1</td>
                       <td>250.000</td>
                       <td>250.000</td>
+                      <td><button type="button" class="btn btn-danger" data-dismiss="modal">x</button></td>
                     </tr>
                     <tr>
                       <th scope="row">2</th>
@@ -264,6 +338,7 @@
                       <td>2</td>
                       <td>290.000</td>
                       <td>580.000</td>
+                      <td><button type="button" class="btn btn-danger" data-dismiss="modal">x</button></td>
                     </tr>
                   </tbody>
                 </table>
@@ -273,8 +348,9 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-                <button type="button" class="btn btn-info" data-dismiss="modal">Lưu tạm</button>
                 <a href="thanhtoan.html" class="btn btn-primary">Tiến hành Thanh toán</a>
+                <a href="inhoadon.html" class="btn btn-success" target="_blank">In tạm</a>
+                <button type="button" class="btn btn-info" data-dismiss="modal">Lưu HĐ</button>
               </div>
             </div>
           </div>
